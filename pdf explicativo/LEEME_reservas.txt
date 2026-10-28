@@ -1,0 +1,19 @@
+HOTEL SOL - DATOS DE PRUEBA PARA HOTELAPP
+
+Archivo: reservas.xml
+
+Contenido:
+- 30 habitaciones (números 101 a 130).
+- 30 reservas de ejemplo.
+- Datos del hotel, tipo de habitación, capacidad, precio, planta, vista y accesibilidad.
+- Reservas confirmadas, pendientes, finalizadas y canceladas, con clientes, fechas y número de personas.
+
+Uso en el proyecto:
+1. Copia reservas.xml dentro de src/main/resources/.
+2. Si ya tienes un archivo con ese nombre, guarda una copia antes de reemplazarlo.
+3. Ejecuta la aplicación y prueba distintas habitaciones, por ejemplo 101, 112, 123, 128 y 999.
+   También puedes pulsar «Añadir XML» y seleccionar otro archivo XML desde el explorador.
+4. Los valores de estado de habitaciones son: disponible, ocupada y mantenimiento. El controlador debe comparar estos textos exactamente o adaptar la lógica a los valores elegidos.
+5. Las reservas futuras e históricas son datos de muestra. Para el ejercicio básico, la disponibilidad actual se toma del atributo estado de cada habitación; no se calcula automáticamente cruzando las fechas de reserva.
+
+Todos los nombres, correos y datos son ficticios y se usan únicamente para el ejercicio académico.
